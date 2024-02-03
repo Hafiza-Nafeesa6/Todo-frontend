@@ -54,7 +54,7 @@ const submit = () => {
       </label>
       <button @click="submit" class="tw-my-5">Signup</button>
       <div class="tw-text-center">Already have account?
-        <router-link to="/"> <span class="tw-text-purple-900 tw-cursor-pointer tw-font-semibold">Login
+        <router-link to="/login"> <span class="tw-text-purple-900 tw-cursor-pointer tw-font-semibold">Login
         </span></router-link>
       </div>
     </div>
